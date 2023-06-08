@@ -1,0 +1,49 @@
+#education {
+    margin: 34px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    display: block;
+
+}
+
+
+
+#education .box {
+    border: 2px solid white;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #ec4aa6;
+    margin-bottom: 20px;
+    width: 85%
+    
+}
+
+#education .box img {
+    height: 95px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid rgb(19, 18, 18);
+    border-radius: 90px;
+
+}
+
+#education .box p {
+    font-family: cursive;
+
+}
+
+@media only screen and (max-width:951px){
+    
+    #education .h-primary {
+        margin-left: -97px;
+    }
+    #education .box{
+        margin: 0px -27px;
+        width: 366px;
+    }
+    
+
+}

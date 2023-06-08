@@ -1,0 +1,30 @@
+#skills .box {
+    border: 2px solid rgb(3, 3, 3);
+    padding: 34px;
+    margin: 10px 55px;
+    border-radius: 28px;
+    background: #0b7bde;
+    margin-bottom: 20px;
+    width: 90%
+}
+
+#skills .box img {
+    height: 36px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media only screen and (max-width:673px){
+
+    #skills .h-primary {
+        margin-left: -46px;
+    }
+    #skills .box{
+        margin: 10px 0px;
+    }
+    
+
+}
+

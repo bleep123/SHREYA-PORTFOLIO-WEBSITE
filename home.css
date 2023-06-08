@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.right{
+    margin-right:0px;
+}
+.top{
+   width: 20px;
+   font-size: 12px;
+}
+.left{
+    font-size: 66px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #4dcde6;
+    width: 441px;
+    margin-left: 80px;
+}
+#burger {
+    width: 58px;
+    height: 46px;
+    margin: 44px 0 20px 20px;
+    cursor: pointer;
+    z-index: 100;
+    margin-top: 28px;
+    color: white;
+    display: none;
+    margin-left: -301px;
+}
+.bar{
+    height:5px;
+    width: 100%; 
+    background-color: white;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+#bar1{
+    transform: translateY(-4px);
+}
+#bar3{
+    transform: translateY(4px);
+}
+
+#logo {
+    margin: 10px 34px;
+
+}
+
+#logo img {
+    height: 445px;
+    margin: 74px 162px;
+    border: 14px solid rgb(205, 10, 143);
+    border-radius: 219px;
+}
+
+
+#navbar ul {
+    display: flex;
+    font-family:cursive;
+    color: #a40980;
+    padding-left: 5rem;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: rgb(11, 11, 11);
+    background-color: #dd9cd8;;
+    display: block;
+    margin: 7px;
+    padding: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: rgb(147, 25, 204);
+}
+.home{
+    display: flex;
+}
+.name{
+    font-size: 118px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #f00ad1;
+    font-family: cursive;
+}
+.desc{
+    font-size: 32px;
+    font-weight: 900;
+    color: white;
+    font-family: cursive;
+}
+.btn{
+    border: 14px solid rgb(197, 7, 108);
+    border-radius: 219px;
+    margin-top: -18px;
+}
+
+
+
+@media only screen and (max-width:1284px) {
+    .left{
+        display:none;
+    }
+    #navbar ul {
+        margin-left: 15px;
+        margin-top: 489px;
+    }
+    #burger {
+        display:block;
+    }
+    .menu{
+        display:flex;
+        flex-direction: column;
+        margin-right: 52px;
+        display: none;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .home{
+        flex-direction: column;
+    }
+    
+    #logo {
+        margin: 319px 34px;
+    }
+    #logo img {
+        margin: -571px 458px;
+        margin-top: 90px;
+    }
+
+    .name {
+        margin-left: 481px;
+        margin-top: 322px;
+    }
+    .desc {
+        margin-left: 459px;
+        width: 553px;
+        margin-top: 302px;
+    }
+    .btn {
+        margin-left: 578px;
+        margin-top: 287px;
+        border-radius: 23px;
+        font-size: 27px;
+        width: 240px;
+    }
+    footer {
+        width: 1314px;
+        height: 47px;
+        margin-top: 1235px;
+    }
+    .center{
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #navbar{
+        transform: translate(0px, -443px);
+        position: absolute;
+    }
+
+}

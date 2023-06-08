@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    width: 100%;
+}
+
+.cont{
+    color: #692c5a;
+    font-size: 35px;
+}
+
+.h-primary {
+    font-family: cursive;
+    font-size: 3.8rem;
+    padding: 106px;
+    color: white;
+}
+
+.h-secondary {
+    font-family: cursive;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+.center {
+    text-align: center;
+}
+
+body {
+    background-color: #a40980;
+    background: url('../imgg/bg.jpg');
+}
+
+.bubbles img {
+    width: 50px;
+    animation: bubble 7s linear infinite;
+    border-radius: 393px;
+}
+
+.bubbles {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+}
+
+@keyframes bubble {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    50% {
+
+        opacity: 1;
+    }
+
+    70% {
+
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+.bubbles img:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.bubbles img:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.bubbles img:nth-child(3) {
+    animation-delay: 0s;
+}
+
+.bubbles img:nth-child(4) {
+    animation-delay: 1.5s;
+}
+
+.bubbles img:nth-child(5) {
+    animation-delay: 1s;
+}
+
+.bubbles img:nth-child(6) {
+    animation-delay: 2s;
+}
+
+.bubbles img:nth-child(7) {
+    animation-delay: 1s;
+}
+
+.bubbles img:nth-child(8) {
+    animation-delay: 0s;
+}
+

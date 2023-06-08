@@ -1,0 +1,30 @@
+#projects .box {
+    border: 2px solid rgb(19, 18, 18);
+    padding: 162px;
+    margin: 12px 60px;
+    border-radius: 28px;
+    background: #0fcac1;
+    margin-bottom: 20px;
+    width: 85%
+}
+#proj-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#projects .exp{
+    font-size:27px;
+}
+
+.proj {
+    padding: 34px;
+}
+
+@media only screen and (max-width:528px){
+    #projects .box {
+        margin-left: 118px;
+    }
+    #projects .h-primary {
+        margin-left: -41px;
+    } 
+}

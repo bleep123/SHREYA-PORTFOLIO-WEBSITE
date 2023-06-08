@@ -1,0 +1,35 @@
+#contact {
+    position: relative;
+}
+.heading-color{
+    color:white
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact .box {
+    border: 2px solid rgb(17, 17, 17);
+    padding: 138px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #ee646d;
+    margin-bottom: 20px;
+    width: 700px;
+    width: 85%
+}
+
+@media only screen and (max-width:712px){
+    #contact .box {
+        margin-left: 196px;
+        width: 306px;
+    }
+    
+    #contact .h-primary{
+        margin-left: -63px;
+    }
+}
